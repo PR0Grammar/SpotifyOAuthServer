@@ -1,0 +1,17 @@
+{
+  "name": "spotifyoauthbridge",
+  "version": "1.0.0",
+  "description": "Server to connect to Spotify OAuth service and re-route back to app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "query-string": "^6.1.0",
+    "request": "^2.88.0"
+  }
+}

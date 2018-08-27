@@ -4,7 +4,8 @@
   "description": "Server to connect to Spotify OAuth service and re-route back to app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,9 @@
     "express": "^4.16.3",
     "query-string": "^6.1.0",
     "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "10.8.0",
+    "npm": "6.4.0"
   }
 }

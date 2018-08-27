@@ -43,6 +43,6 @@ app.get('/callback', (req, res) => {
     })
 });
 
-const port = process.env.PORT || 3003
+const port = process.env.PORT
 console.log(`Listening on port ${port}.`)
 app.listen(port)
